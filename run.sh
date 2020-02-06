@@ -1,5 +1,5 @@
 runid="1"
-RUNDIR=res-tpcc-no-GR-mysql-8.0.19-$runid
+RUNDIR=res-tpcc-no-GR-mysql-8.0.18-$runid
 #for i in 16 64 128 256
 for i in 1 2 4 8 16 64 128 256
 do
