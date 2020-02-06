@@ -1,0 +1,11 @@
+2020-01-08T21:13:44.055593Z 2 [Note] WSREP: Requesting state transfer: success, donor: 0
+2020-01-08T21:13:44.055621Z 2 [Note] WSREP: GCache history reset: 15c3f4fa-3255-11ea-9746-2ff3f13ccf9f:0 -> 15c3f4fa-3255-11ea-9746-2ff3f13ccf9f:155275
+        2020-01-08T21:13:44.786756Z WSREP_SST: [INFO] Proceeding with SST.........
+2020-01-08T21:13:45.638746Z 0 [Note] WSREP: (bf50c1bc, 'tcp://0.0.0.0:4567') turning message relay requesting off
+        2020-01-08T21:13:46.402742Z WSREP_SST: [INFO] ............Waiting for SST streaming to complete!
+2020-01-08T21:21:38.083872Z 0 [Note] WSREP: 0.0 (node1): State transfer to 2.0 (node3) complete.
+2020-01-08T21:21:38.084258Z 0 [Note] WSREP: Member 0.0 (node1) synced with group.
+        2020-01-08T21:21:38.134957Z WSREP_SST: [INFO] Preparing the backup at /mnt/data/mysql-8.0.18//.sst
+        2020-01-08T21:22:50.354257Z WSREP_SST: [INFO] Moving the backup to /mnt/data/mysql-8.0.18/
+        2020-01-08T21:22:50.582153Z WSREP_SST: [INFO] Galera co-ords from recovery: 15c3f4fa-3255-11ea-9746-2ff3f13ccf9f:155275
+2020-01-08T21:22:50.622981Z 0 [Note] WSREP: SST complete, seqno: 155275

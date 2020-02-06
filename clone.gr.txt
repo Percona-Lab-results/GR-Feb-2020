@@ -1,0 +1,69 @@
+2020-01-08T20:00:58.090031Z 0 [Note] [MY-013471] [Repl] Plugin group_replication reported: 'Distributed recovery will transfer data using: Cloning from a remote group donor.'
+2020-01-08T20:00:58.090384Z 0 [Note] [MY-011503] [Repl] Plugin group_replication reported: 'Group membership changed to 172.16.0.3:3306, 172.16.0.1:3306 on view 15785030469192510:4.'
+2020-01-08T20:00:58.102913Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task Connect.'
+2020-01-08T20:00:58.108244Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Master ACK Connect.'
+2020-01-08T20:00:58.108311Z 113 [Note] [MY-013457] [InnoDB] Clone Apply Begin Master Version Check
+2020-01-08T20:00:58.117149Z 113 [Note] [MY-013457] [InnoDB] Clone Apply Version End Master Task ID: 0 Passed, code: 0:
+2020-01-08T20:00:58.117188Z 113 [Note] [MY-013457] [InnoDB] Clone Apply Begin Master Task
+2020-01-08T20:00:58.117478Z 113 [Warning] [MY-013460] [InnoDB] Clone removing all user data for provisioning: Started
+2020-01-08T20:00:58.117498Z 113 [Note] [MY-011977] [InnoDB] Clone Drop all user data
+2020-01-08T20:00:58.194686Z 113 [Note] [MY-011977] [InnoDB] Clone: Fix Object count: 178 task: 0
+2020-01-08T20:00:58.231760Z 113 [Note] [MY-011977] [InnoDB] Clone Drop User schemas
+2020-01-08T20:00:58.231861Z 113 [Note] [MY-011977] [InnoDB] Clone: Fix Object count: 5 task: 0
+2020-01-08T20:00:58.234517Z 113 [Note] [MY-011977] [InnoDB] Clone Drop User tablespaces
+2020-01-08T20:00:58.234829Z 113 [Note] [MY-011977] [InnoDB] Clone: Fix Object count: 6 task: 0
+2020-01-08T20:00:58.238720Z 113 [Note] [MY-011977] [InnoDB] Clone Drop: finished successfully
+2020-01-08T20:00:58.238777Z 113 [Warning] [MY-013460] [InnoDB] Clone removing all user data for provisioning: Finished
+2020-01-08T20:00:58.433336Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Command COM_INIT.'
+2020-01-08T20:00:58.539294Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State Change : Number of tasks = 1
+2020-01-08T20:00:58.539328Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State FILE COPY:
+2020-01-08T20:00:58.544270Z 113 [Note] [MY-011978] [InnoDB] Clone estimated size: 122.32 GiB Available space: 1.60 TiB
+2020-01-08T20:01:03.616526Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Tune Threads from: 1 to: 2 prev: 1 target: 2.'
+2020-01-08T20:01:03.623412Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task Connect.'
+2020-01-08T20:01:03.623752Z 0 [Note] [MY-013457] [InnoDB] Clone Apply Begin Task ID: 1
+2020-01-08T20:01:03.623795Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Command COM_ATTACH.'
+2020-01-08T20:01:08.630627Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Tune continue, Data: 503 MiB/sec, Target: 333 MiB/sec.'
+2020-01-08T20:01:08.630671Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Tune Threads from: 2 to: 4 prev: 2 target: 4.'
+2020-01-08T20:01:08.637751Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task Connect.'
+2020-01-08T20:01:08.637891Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task Connect.'
+2020-01-08T20:01:08.638129Z 0 [Note] [MY-013457] [InnoDB] Clone Apply Begin Task ID: 2
+2020-01-08T20:01:08.638184Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Command COM_ATTACH.'
+2020-01-08T20:01:08.638208Z 0 [Note] [MY-013457] [InnoDB] Clone Apply Begin Task ID: 3
+2020-01-08T20:01:08.638261Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Command COM_ATTACH.'
+2020-01-08T20:01:13.646289Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Tune stop, Data: 504 MiB/sec, Target: 628 MiB/sec..'
+2020-01-08T20:04:28.608808Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Total Data: 104776 MiB @ 498 MiB/sec, Network: 104782 MiB @ 498 MiB/sec.'
+2020-01-08T20:04:28.772189Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State Change : Number of tasks = 4
+2020-01-08T20:04:28.772252Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State PAGE COPY:
+2020-01-08T20:04:28.872381Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Total Data: 104776 MiB @ 498 MiB/sec, Network: 104782 MiB @ 498 MiB/sec.'
+2020-01-08T20:04:29.074705Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State Change : Number of tasks = 4
+2020-01-08T20:04:29.074771Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State REDO COPY:
+2020-01-08T20:04:29.175383Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Total Data: 104776 MiB @ 497 MiB/sec, Network: 104782 MiB @ 497 MiB/sec.'
+2020-01-08T20:04:29.375428Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State Change : Number of tasks = 4
+2020-01-08T20:04:29.375487Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State FLUSH DATA:
+2020-01-08T20:04:29.472201Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State FLUSH REDO:
+2020-01-08T20:04:29.473225Z 113 [Note] [MY-012651] [InnoDB] Progress in MB:
+ 100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000 2100 2200 2300 2400 2500 2600 2700 2800 2900 3000 3100 3200 3300 3400 3500 3600 3700 3800 3900 4000 4100 4200 4300 4400 4500 4600 4700 4800 4900 5000 5100 5200 5300 5400 5500 5600 5700 5800 5900 6000 6100 6200 6300 6400 6500 6600 6700 6800 6900 7000 7100 7200 7300 7400 7500 7600 7700 7800 7900 8000 8100 8200 8300 8400 8500 8600 8700 8800 8900 9000 9100 9200 9300 9400 9500 9600 9700 9800 9900 10000 10100 10200
+2020-01-08T20:04:51.402971Z 113 [Note] [MY-012651] [InnoDB] Progress in MB:
+ 100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000 2100 2200 2300 2400 2500 2600 2700 2800 2900 3000 3100 3200 3300 3400 3500 3600 3700 3800 3900 4000 4100 4200 4300 4400 4500 4600 4700 4800 4900 5000 5100 5200 5300 5400 5500 5600 5700 5800 5900 6000 6100 6200 6300 6400 6500 6600 6700 6800 6900 7000 7100 7200 7300 7400 7500 7600 7700 7800 7900 8000 8100 8200 8300 8400 8500 8600 8700 8800 8900 9000 9100 9200 9300 9400 9500 9600 9700 9800 9900 10000 10100 10200
+2020-01-08T20:05:13.272231Z 113 [Note] [MY-013458] [InnoDB] Clone Apply State DONE
+2020-01-08T20:05:13.272328Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Command COM_EXECUTE.'
+2020-01-08T20:05:13.272683Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Master ACK COM_EXIT.'
+2020-01-08T20:05:13.273129Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Master ACK Disconnect : abort: false.'
+2020-01-08T20:05:13.314232Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Command COM_EXECUTE.'
+2020-01-08T20:05:13.314636Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task COM_EXIT.'
+2020-01-08T20:05:13.315092Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task Disconnect : abort: false.'
+2020-01-08T20:05:13.315217Z 0 [Note] [MY-013457] [InnoDB] Clone Apply End Task ID: 3 Passed, code: 0:
+2020-01-08T20:05:13.354941Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Command COM_EXECUTE.'
+2020-01-08T20:05:13.355371Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task COM_EXIT.'
+2020-01-08T20:05:13.355818Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task Disconnect : abort: false.'
+2020-01-08T20:05:13.355865Z 0 [Note] [MY-013457] [InnoDB] Clone Apply End Task ID: 1 Passed, code: 0:
+2020-01-08T20:05:13.369189Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Command COM_EXECUTE.'
+2020-01-08T20:05:13.369579Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task COM_EXIT.'
+2020-01-08T20:05:13.370027Z 0 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task Disconnect : abort: false.'
+2020-01-08T20:05:13.370072Z 0 [Note] [MY-013457] [InnoDB] Clone Apply End Task ID: 2 Passed, code: 0:
+2020-01-08T20:05:13.373781Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task COM_EXIT.'
+2020-01-08T20:05:13.374303Z 113 [Note] [MY-013272] [Clone] Plugin Clone reported: 'Client: Task Disconnect : abort: false.'
+2020-01-08T20:05:13.374589Z 113 [Note] [MY-013457] [InnoDB] Clone Apply End Master Task ID: 0 Passed, code: 0:
+2020-01-08T20:05:13.375236Z 113 [ERROR] [MY-013462] [Server] Clone shutting down server as RESTART failed. Please start server to complete clone operation.
+
+

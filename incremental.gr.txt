@@ -1,0 +1,2 @@
+2020-01-08T17:05:04.934618Z 60 [System] [MY-010562] [Repl] Slave I/O thread for channel 'group_replication_recovery': connected to master 'mysql_innodb_cluster_2@172.16.0.1:3306',replication started in log 'FIRST' at position 4
+2020-01-08T18:57:02.350199Z 59 [Note] [MY-011585] [Repl] Plugin group_replication reported: 'Terminating existing group replication donor connection and purging the corresponding logs.'

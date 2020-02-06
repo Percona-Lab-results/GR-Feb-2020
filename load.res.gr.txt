@@ -1,0 +1,5 @@
+Group replication,  no encryption
+real    61m19.017s
+user    65m1.137s
+sys     0m57.030s
+
